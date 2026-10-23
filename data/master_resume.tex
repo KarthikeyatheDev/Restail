@@ -1,0 +1,71 @@
+% Master Resume Content Repository
+% Add all your personal achievements, experiences, projects, skills, and bullet variations here.
+% Restail will select the most relevant items according to the target job description and behavior.md.
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\begin{document}
+
+% ===================== HEADING / CONTACT =====================
+% Paste your name, phone, email, and profiles here
+\begin{center}
+    \textbf{\Huge \scshape [YOUR NAME]} \\ \vspace{1pt}
+    \small [PHONE] $|$ \href{mailto:[EMAIL]}{[EMAIL]} $|$ 
+    \href{[LINKEDIN_URL]}{[LINKEDIN]} $|$
+    \href{[GITHUB_URL]}{[GITHUB]}
+\end{center}
+
+% ===================== EDUCATION =====================
+\section{Education}
+% [Add your degree, institution, graduation date, and honors here]
+
+% ===================== TECHNICAL SKILLS =====================
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, TypeScript, JavaScript, SQL, C++, Java} \\
+     \textbf{Frameworks}{: Next.js, React, Flask, FastAPI, Tailwind CSS, Node.js} \\
+     \textbf{Databases \& Tools}{: PostgreSQL, SQLite, Docker, Git, Linux, REST APIs}
+    }}
+\end{itemize}
+
+% ===================== EXPERIENCE =====================
+\section{Experience}
+% [Add your roles, companies, dates, and bullet points here. Include alternative bullet points to give the AI tailoring options.]
+
+% ===================== PROJECTS =====================
+\section{Projects}
+% [Add your projects, technologies used, and quantifiable outcome bullets here.]
+
+\end{document}
